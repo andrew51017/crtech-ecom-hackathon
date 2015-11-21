@@ -33,23 +33,23 @@
     "dataSource": "db",
     "public": true
   },
-  "restaurant": {
+  "Restaurant": {
     "dataSource": "db",
     "public": true
   },
-  "bookings": {
+  "Bookings": {
     "dataSource": "db",
     "public": true
   },
-  "menu": {
+  "Menu": {
     "dataSource": "db",
     "public": true
   },
-  "review": {
+  "Review": {
     "dataSource": "db",
     "public": true
   },
-  "order": {
+  "Order": {
     "dataSource": "db",
     "public": true
   }
