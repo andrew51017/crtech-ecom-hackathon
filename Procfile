@@ -1,1 +1,1 @@
-web: npm install; node .
+web: npm install loopback-connector-postgresql; node .
