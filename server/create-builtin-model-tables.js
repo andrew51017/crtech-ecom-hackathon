@@ -1,8 +1,11 @@
 var server = require('./server');
-var ds = server.dataSources.db;
+var dataSource = server.dataSources.db;
 var lbTables = ['AccessToken', 'ACL', 'RoleMapping', 'Role'];
-ds.automigrate(lbTables, function(er) {
-  if (er) throw er;
-  console.log('Looback tables [' + lbTables + '] created in ', ds.adapter.name);
-  ds.disconnect();
+
+dataSource.automigrate(lbTables, function(error) {
+  if (error) {
+    throw error;
+  }
+  console.log('Looback tables [' + lbTables + '] created in ', dataSource.adapter.name);
+  dataSource.disconnect();
 });
