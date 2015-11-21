@@ -2,13 +2,11 @@
   "db": {
     "name": "db",
     "connector": "postgresql",
-    "host": "localhost",
+    "host": "ec2-54-217-240-205.eu-west-1.compute.amazonaws.com",
     "port": "5432",
-    "database": "curo",
-    "username": "postgres",
-    "password": "password",
-    "name": "postgres",
-    "debug": true,
-    "connector": "postgresql"
+    "database": "dh6hn643uvjlu",
+    "username": "wobfunhvsgtyvn",
+    "password": "3QUJXtzJ2jfPX2extVKDz3_wOl",
+    "debug": true
   }
 }
