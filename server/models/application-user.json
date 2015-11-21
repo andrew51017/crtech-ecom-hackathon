@@ -16,7 +16,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "restaurant": {
+      "type": "hasOne",
+      "model": "Restaurant",
+      "foreignKey": "user_id"
+    }
+  },
   "acls": [
     {
       "accessType": "EXECUTE",
