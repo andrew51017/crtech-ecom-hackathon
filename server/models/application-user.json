@@ -21,6 +21,11 @@
       "type": "hasOne",
       "model": "Restaurant",
       "foreignKey": "user_id"
+    },
+    "bookings": {
+      "type": "hasMany",
+      "model": "Bookings",
+      "foreignKey": "userId"
     }
   },
   "acls": [
