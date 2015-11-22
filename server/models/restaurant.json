@@ -38,7 +38,7 @@
     "image": {
       "type": "string",
       "required": false
-    },
+    }
   },
   "validations": [],
   "relations": {
