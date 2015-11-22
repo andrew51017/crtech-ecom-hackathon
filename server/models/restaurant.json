@@ -34,7 +34,11 @@
     "address": {
       "type": "string",
       "required": true
-    }
+    },
+    "image": {
+      "type": "string",
+      "required": false
+    },
   },
   "validations": [],
   "relations": {
